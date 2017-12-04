@@ -4,7 +4,7 @@
 
 def main():
     try:
-        digit = int(input("Please, input a integer: "))
+        digit = float(input("Please, input a integer: "))
         if digit % 3 == 0:
             print(True)
         else:
