@@ -6,9 +6,9 @@ def main():
     try:
         digit = int(input("Please, input a integer: "))
         if digit % 3 == 0:
-            print("True.")
+            print(True)
         else:
-            print("False.")
+            print(False)
     except:
         print("Unexpected error! Please, try again.")
     finally:
