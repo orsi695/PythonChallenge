@@ -11,7 +11,7 @@ def edit(file_in='C:/text.txt'):
             if len(edited[i]) > 6:
                 text = text.replace(edited[i], edited[i].title())
 
-    print(text)
+    open(file_in, 'w', encoding='utf-8').write(text)
 
 file_in = input("Введите путь до файла (C:/text.txt) -->  ")
 
