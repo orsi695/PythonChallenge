@@ -1,5 +1,5 @@
 # CODEBY Python Challenge
-# Palindrome check
+# Second task
 # Author: ETERN4L
 
 # -*- coding: utf-8 -*-
