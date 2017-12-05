@@ -1,5 +1,5 @@
 # CODEBY Python Challenge
-# Second task
+# Palindrome check
 # Author: ETERN4L
 
 # -*- coding: utf-8 -*-
@@ -17,11 +17,11 @@ def main():
     result = " ".join(text)
     with open("text.txt", "w") as file:
         file.write(result)
+    return "Done! Now you can check some changes."
 
 if __name__ == "__main__":
     try:
         print(main())
-        print("Done! Now you can check some changes.")
     except KeyboardInterrupt:
         print("\nKeyboardInterrupt...")
     finally:
